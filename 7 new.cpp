@@ -10,11 +10,13 @@ protected:
 };
 
 class student : public person {
+    friend mirea;
 private:
     int student_number, average_mark;
 };
 
 class worker : public person {
+    friend mirea;    
 private:
     int exp, hours, salary, premy;
 };
